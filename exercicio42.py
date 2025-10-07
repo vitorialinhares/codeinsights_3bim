@@ -5,11 +5,11 @@
 
 #begin_inputs
  #mantenha esse trecho. o input será manipulado aqui.
+#end_inputs
 contador = 0
 for n in range(10):
     idade = int(input())
     if idade >= 18:
         contador += 1
-#end_inputs
 print (contador)
 	
